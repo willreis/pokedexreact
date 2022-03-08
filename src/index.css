@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 80px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cardBox {
+  width: 200px;
+  border: 1px solid #0a9d0a;
+  border-radius: 5px;
+}
+
+.headerInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px 5px 15px;
+  background: #0a9d0a;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.pokeNumber {
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  color: #0a9d0a;
+  font-weight: bold;
+}
+
+.pokeName {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 18px;
+}
+
+.pokeImgBox {
+  text-align: center;
+}
+
+.pokeImgBox img {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #0a9d0a;
+}
+
+.pokeType {
+  padding: 0 10px;
+  padding-right: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #0a9d0a;
+  font-size: 18px;
+}
+
+.pokeAbility {
+  padding: 0 10px;
+  color: #0a9d0a;
+  text-transform: capitalize;
+}
+
+.textAbil{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.abilitiesText{
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+
+.versionBox {
+  padding: 0 10px 10px 10px;
+  text-transform: capitalize;
+  color: #0e4b0e;
 }
